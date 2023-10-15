@@ -1,0 +1,94 @@
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+  
+  .contactmainbody {
+    background: #efefe1;
+    box-shadow: 10px 30px 60px 0 rgba(2, 5, 9, 0.4);
+    border-radius: 5px;
+    max-width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+    z-index: 1;
+    animation: bounce 1s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .contactbody{
+    display: block;
+    font-size:30px;
+    font-weight:bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  
+  .contactName {
+    background-color: #ebebeb;
+    color: rgb(14, 13, 13);
+  }
+  .contactName:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .contactemail {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .contactemail:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .contactmessage {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  .contactmessageinput {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 6cm;
+    width:12cm;
+  }
+  .contactmessage:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  
+  .contactsubmit {
+    width: 100px;
+    color: rgb(254, 254, 254);
+    background-color: #000000;
+    font-size: 20px;
+    
+    
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  
+  

@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+  background-color: rgb(197, 202, 206);
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+}
+
+main {
+  padding: 36px;
+}
+
+.header img{
+  width: 50px;
+  height: 50px;
+}
+
+.btn-class{
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 0.6em;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin: auto;
+  }
+
+/* Navbar css */
+a{
+  list-style: none;
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background-image: linear-gradient(to bottom right, rgb(239, 66, 245), rgb(218, 90, 12));
+
+  /* background: linear-gradient(90deg,rgb(8, 69, 131) 1.18%,#ADEFD1FF 100%); */
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 100%;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+
+.header--title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+
+.header--project1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project4 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project6 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.header--project7 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-right: 40px;
+}
+
+.rounded-circle{
+  border-radius: 30px;
+}
